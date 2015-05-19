@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        style="@style/ActionMenuRelativelayout"
+        android:id="@+id/action_no_filter">
+
+        <TextView
+            style="@style/ActionMenuTextView"
+            android:text="@string/action_no_filter"/>
+
+        <ImageView
+            style="@style/TimeMenuImageView"
+            android:id="@+id/no_filter_checkmark"
+            android:visibility="visible"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/ActionMenuRelativelayout"
+        android:id="@+id/action_all_day">
+
+        <TextView
+            style="@style/ActionMenuTextView"
+            android:text="@string/action_all_day"/>
+
+        <ImageView
+            style="@style/TimeMenuImageView"
+            android:id="@+id/all_day_checkmark"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/ActionMenuRelativelayout"
+        android:id="@+id/action_morning">
+
+        <TextView
+            style="@style/ActionMenuTextView"
+            android:text="@string/action_morning"/>
+
+        <ImageView
+            style="@style/TimeMenuImageView"
+            android:id="@+id/morning_checkmark"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/ActionMenuRelativelayout"
+        android:id="@+id/action_afternoon">
+
+        <TextView
+            style="@style/ActionMenuTextView"
+            android:text="@string/action_afternoon"/>
+
+        <ImageView
+            style="@style/TimeMenuImageView"
+            android:id="@+id/afternoon_checkmark"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/ActionMenuRelativelayout"
+        android:id="@+id/action_evening">
+
+        <TextView
+            style="@style/ActionMenuTextView"
+            android:text="@string/action_evening"/>
+
+        <ImageView
+            style="@style/TimeMenuImageView"
+            android:id="@+id/evening_checkmark"/>
+    </RelativeLayout>
+
+</LinearLayout>

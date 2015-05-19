@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#FE5F55</color>
+    <color name="color_primary_dark">#B1423B</color>
+    <color name="color_accent">#A5FFD6</color>
+    <color name="almost_white">#ECF0F1</color>
+    <color name="almost_white_dark">#D4D8D8</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="color_primary_transparent">#99FE5F55</color>
+    <color name="color_primary_dark_transparent">#99B1423B</color>
+    <color name="almost_white_dark_transparent">#50D4D8D8</color>
+    <color name="white_transparent">#50FFFFFF</color>
+
+    <!--Error Button -->
+    <color name="error_button_flat_focused_hover">#15CCCCCC</color>
+    <color name="error_button_flat_pressed">#25CCCCCC</color>
+
+    <!-- RecyclerView Divider Color-->
+    <color name="divider_color">#30CCCCCC</color>
+
+    <!-- Time Menu Check Box Row-->
+    <color name="row_background_color">#303030</color>
+    <color name="row_focused_hover">#626262</color>
+    <color name="row_pressed">#626262</color>
+
+    <!-- -->
+</resources>

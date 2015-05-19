@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+
+    defaultConfig {
+        applicationId "com.example.marco.eventuresf"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':datetimepicker-library')
+    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile 'com.android.support:support-v13:21.0.3'
+    compile 'com.h6ah4i.android.widget.advrecyclerview:advrecyclerview:0.6.2'
+    compile 'com.google.android.gms:play-services-maps:7.0.0'
+    compile 'it.neokree:MaterialTabs:0.11'
+    compile 'com.getbase:floatingactionbutton:1.8.0'
+    compile 'com.pnikosis:materialish-progress:1.4'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.easing:library:1.0.1@aar'
+    compile 'com.daimajia.androidanimations:library:1.1.3@aar'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+}

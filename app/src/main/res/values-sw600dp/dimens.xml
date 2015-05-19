@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sw600_text_size">20sp</dimen>
+    <dimen name="msg_text_size">24sp</dimen>
+    <dimen name="toolbar_text_size">23sp</dimen>
+    <dimen name="flat_button_text_size">21sp</dimen>
+
+    <!-- Error View -->
+    <dimen name="error_text_size">@dimen/msg_text_size</dimen>
+    <dimen name="error_button_text_size">@dimen/flat_button_text_size</dimen>
+
+    <!-- No Events Message-->
+    <dimen name="no_events_msg_text_size">@dimen/msg_text_size</dimen>
+
+    <!-- Group Item -->
+    <dimen name="event_item_text_size">@dimen/sw600_text_size</dimen>
+    <dimen name="thumbnail_width">160dp</dimen>
+    <dimen name="thumbnail_height">104dp</dimen>
+
+    <!-- Child Item -->
+    <dimen name="child_item_text_size">@dimen/sw600_text_size</dimen>
+    <dimen name="child_button_text_size">@dimen/flat_button_text_size</dimen>
+    <dimen name="child_button_right_margin">15dp</dimen>
+    <dimen name="child_button_space_inbetween">50dp</dimen>
+
+    <!-- Action Menu Row -->
+    <dimen name="action_menu_row_padding">15sp</dimen>
+    <dimen name="action_menu_row_width">250sp</dimen>
+    <dimen name="action_menu_row_text_size">22sp</dimen>
+    <dimen name="action_menu_row_image_height_width">23dp</dimen>
+</resources>

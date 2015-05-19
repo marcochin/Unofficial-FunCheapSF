@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dataErrorView"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:visibility="invisible">
+
+    <TextView
+        android:id="@+id/dataErrorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data_error"
+        android:textSize="@dimen/error_text_size"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="@style/ErrorButton"
+            android:id="@+id/tryAgainButtonData"
+            android:text="@string/try_again"/>
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="0dp" />
+
+        <Button
+            style="@style/ErrorButton"
+            android:id="@+id/notifyMeButtonData"
+            android:text="@string/notify_me"/>
+    </LinearLayout>
+</LinearLayout>

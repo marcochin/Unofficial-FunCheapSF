@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        style="@style/ActionMenuRelativelayout"
+        android:id="@+id/action_today">
+
+        <TextView
+            style="@style/ActionMenuTextView"
+            android:text="@string/action_today"/>
+
+        <ImageView
+            style="@style/CalendarMenuImageView"
+            android:id="@+id/today_bulletpoint"
+            android:visibility="visible"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/ActionMenuRelativelayout"
+        android:id="@+id/action_tomorrow">
+
+        <TextView
+            style="@style/ActionMenuTextView"
+            android:text="@string/action_tomorrow"/>
+
+        <ImageView
+            style="@style/CalendarMenuImageView"
+            android:id="@+id/tomorrow_bulletpoint"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/ActionMenuRelativelayout"
+        android:id="@+id/action_pick_a_date">
+
+        <TextView
+            style="@style/ActionMenuTextView"
+            android:text="@string/action_pick_a_date"/>
+
+        <ImageView
+            style="@style/CalendarMenuImageView"
+            android:id="@+id/pick_a_date_bulletpoint"/>
+    </RelativeLayout>
+
+</LinearLayout>

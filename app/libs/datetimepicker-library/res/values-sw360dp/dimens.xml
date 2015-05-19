@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_button_text_size">15sp</dimen>
+    <dimen name="dialog_button_touch_target">48dp</dimen>
+    <dimen name="selected_calendar_layout_height">210dip</dimen>
+    <dimen name="date_picker_view_animator_height">270dip</dimen>
+</resources>

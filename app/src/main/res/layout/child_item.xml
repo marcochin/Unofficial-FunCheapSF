@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/event_child_container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/child_item_padding">
+
+    <TextView
+        android:id="@+id/event_contest_state"
+        android:text="ContestState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/child_item_text_size"/>
+
+    <TextView
+        android:id="@+id/event_caveat"
+        android:text="Caveat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/child_item_text_size"/>
+
+    <TextView
+        android:id="@+id/event_description"
+        android:text="Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/child_description_top_padding"
+        android:textSize="@dimen/child_item_text_size"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/child_button_bottom_padding"
+        android:layout_marginEnd="@dimen/child_button_right_margin"
+        android:layout_marginRight="@dimen/child_button_right_margin"
+        android:layout_gravity="end">
+
+        <Button
+            style="@style/ChildButton"
+            android:id="@+id/detailsButton"
+            android:text="@string/details"/>
+
+        <Space
+            android:layout_width="@dimen/child_button_space_inbetween"
+            android:layout_height="0dp" />
+
+        <Button
+            style="@style/ChildButton"
+            android:id="@+id/mapButton"
+            android:text="@string/map"/>
+
+    </LinearLayout>
+
+</LinearLayout>

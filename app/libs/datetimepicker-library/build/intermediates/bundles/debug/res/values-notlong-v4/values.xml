@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Marco/AndroidStudioProjects/UnofficialFunCheapSF/app/libs/datetimepicker-library/res/values-notlong/dimens.xml -->
+    <eat-comment/>
+    <dimen name="date_picker_view_animator_height">220dip</dimen>
+</resources>

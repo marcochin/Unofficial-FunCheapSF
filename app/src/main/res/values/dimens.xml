@@ -1,0 +1,47 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. I dont use it..-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="top_padding_toolbar">0dp</dimen>
+    <dimen name="small_text_size">14sp</dimen>
+    <dimen name="toolbar_text_size">17sp</dimen>
+    <dimen name="msg_text_size">18sp</dimen>
+    <dimen name="flat_button_text_size">15sp</dimen>
+    <dimen name="progress_wheel_size">55dp</dimen>
+
+    <!-- Error View -->
+    <dimen name="error_text_size">@dimen/msg_text_size</dimen>
+    <dimen name="error_button_min_width">64dp</dimen>
+    <dimen name="error_button_height">36dp</dimen>
+    <dimen name="error_button_left_right_padding">8dp</dimen>
+    <dimen name="error_button_top_margin">30dp</dimen>
+    <dimen name="error_button_text_size">@dimen/flat_button_text_size</dimen>
+
+    <!-- No Events Message-->
+    <dimen name="no_events_msg_text_size">@dimen/msg_text_size</dimen>
+
+    <!-- Action Menu Row -->
+    <dimen name="action_menu_row_padding">15sp</dimen>
+    <dimen name="action_menu_row_width">195sp</dimen>
+    <dimen name="action_menu_row_text_size">16sp</dimen>
+    <dimen name="action_menu_row_image_height_width">21dp</dimen>
+
+    <!-- Group Item -->
+    <dimen name="group_item_padding">7dp</dimen>
+    <dimen name="price_padding_right">5dp</dimen>
+    <dimen name="event_item_text_size">@dimen/small_text_size</dimen>
+    <dimen name="thumbnail_width">114dp</dimen>
+    <dimen name="thumbnail_height">74dp</dimen>
+
+    <!-- Child Item -->
+    <dimen name="child_item_padding">@dimen/group_item_padding</dimen>
+    <dimen name="child_item_text_size">@dimen/small_text_size</dimen>
+    <dimen name="child_description_top_padding">5dp</dimen>
+    <dimen name="child_button_bottom_padding">0dp</dimen>
+    <dimen name="child_button_right_margin">10dp</dimen>
+    <dimen name="child_button_text_size">@dimen/flat_button_text_size</dimen>
+    <dimen name="child_button_top_margin">5dp</dimen>
+    <dimen name="child_button_space_inbetween">20dp</dimen>
+
+
+</resources>
