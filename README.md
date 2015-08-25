@@ -1,5 +1,5 @@
 # Unofficial-FunCheapSF
-#### (App is still under construction!)
+#### (App is no longer being developed)
 ---
 ###Description
 This app is the mobile version of the popular FunCheapSF website. It is a list of fun and cheap things to do in SF.
